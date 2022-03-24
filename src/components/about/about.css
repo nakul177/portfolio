@@ -76,11 +76,34 @@
       height: 30vh;
     }
 
-    .a-card.bg, .a-award {
+    .a-card.bg{
       display: none;
     }
 
     .a-right{
       padding: 20px;
     }
+}
+@media screen and (min-width:480px) and (max-width:900px) {
+  .a{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .a-left {
+    width: 100%;
+  }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg {
+    display: none;
+  }
+
+  .a-right{
+    padding: 20px;
+  }
 }

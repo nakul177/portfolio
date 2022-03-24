@@ -84,9 +84,51 @@ a{
   grid-gap: 5px;
         text-align: center;
     }
-  
+    
+  }
+  @media screen and (min-width:480px) and (max-width:900px) {
+    .skill{
+  display: grid;
+        height: 100vh;
+    }
+    .pimg{
+        height: 500px;
+        width: 500px;
+        
+    }
+    .skilltext{
+        font-size: 30px;
+        text-align: center;
+        margin-right: 100px;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
      
-  
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .img-div{
+      margin-left: -80px;
+
+    }
+    h2{
+        font-size: 30px;
+    }
+    .box1{
+        display: grid;
+  grid-template-columns: repeat(4,  1fr) 100px;
+  grid-gap: 70px;
+        
+        text-align: center;
+    }
+    .box2{
+        display: grid;
+  grid-template-columns: repeat(4,  1fr) 100px;
+  grid-gap: 70px;
+        text-align: center;
+    }
     
   }
   
