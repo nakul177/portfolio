@@ -1,5 +1,5 @@
 import "./about.css";
-import img from "../../img/skillicon/1_Pp2FjqG32-Mg6R3RdFAJvg.jpeg"
+import img from "../../img/skillicon/1_Pp2FjqG32-Mg6R3RdFAJvg.jpeg";
 
 const About = () => {
   return (
@@ -7,35 +7,29 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img
-            src={img}
-            alt=""
-            className="a-img"
-          />
+          <img src={img} alt="" className="a-img" />
         </div>
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-        Hi Everyone, I am Nakul Uday Deshmukh from Khamgaon,Maharashtra.
-I am a Hotel Management Graduate from UEI Goble College, Pune.
+          Hi Everyone, I am Nakul Uday Deshmukh from Khamgaon,Maharashtra. I am
+          a Hotel Management Graduate from UEI Goble College, Pune.
         </p>
         <p className="a-desc">
-        During my studies I got in contact with the basic concepts of
-          programming. Since then I've always wanted to become a developer.
-          Fortunately I have discovered Masai School and joined without any
-          hesitation.
+          A Passionate full-stack web Developer with 4+ months of hands-on
+          experience in developing scalable websites/applications using a wide
+          range of front end and back-end skills like HTML, CSS, JavaScript,
+          Mongodb, Express, Redux, NodeJs, React etc. Developed 4+ websites from
+          scratch. I hope to work in a dynamic organization that helps enhance
+          my technical skills and knowledge. I would like to work in an
+          organization that challenges me on a daily basis and helps me grow and
+          develop alongside the organization..
         </p>
-        {/* <div className="a-award">
-          <img src="" alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
-            <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
-            </p>
-          </div>
-        </div> */}
+        <div className="a-award">
+         <button className="button-resume"><a href="https://drive.google.com/file/d/1EzXzZu95LD5JXBH5avbqKBdKi7F-D3T5/view?usp=sharing"> Resume</a></button>
+         <button className="button-github"><a href="https://github.com/nakul177"> Github </a></button>
+        </div>
       </div>
     </div>
   );
