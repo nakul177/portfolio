@@ -22,8 +22,8 @@ img{
     height: 150px;
 }
 .img-div{
-  padding-left: 100px; 
-  margin-left: 150px;
+  padding-left: 1%; 
+  margin-left: 15%;
 }
 .box1{
     display: flex;
@@ -45,6 +45,7 @@ a{
     .skill{
   display: grid;
         height: 100vh;
+        margin-top: 100px;
     }
     .pimg{
         height: 500px;
@@ -54,47 +55,45 @@ a{
     .skilltext{
         font-size: 20px;
         text-align: center;
-        margin-right: 200px;
+        margin-right: -2%;
         margin-top: 0;
         justify-content: center;
         align-items: center;
      
     }
+    .img-div{
+        padding-right: 10%; 
+        margin-left: 10%;
+      }
     img{
         width: 100px;
         height: 100px;
-    }
-    .img-div{
-      margin-left: 50px;
-      margin-right: 300px;
     }
     h2{
         font-size: 10px;
     }
     .box1{
         display: grid;
-  grid-template-columns: repeat(1,  1fr) 100px;
+  grid-template-columns: repeat(1,  1fr) 120px;
   grid-gap: 5px;
         
         text-align: center;
     }
     .box2{
         display: grid;
-  grid-template-columns: repeat(1,  1fr) 100px;
+  grid-template-columns: repeat(1,  1fr) 120px;
   grid-gap: 5px;
         text-align: center;
     }
     
   }
+
+
+
   @media screen and (min-width:480px) and (max-width:900px) {
     .skill{
   display: grid;
         height: 100vh;
-    }
-    .pimg{
-        height: 500px;
-        width: 500px;
-        
     }
     .skilltext{
         font-size: 30px;
@@ -109,8 +108,9 @@ a{
         width: 100px;
         height: 100px;
     }
+
     .img-div{
-      margin-left: -80px;
+      margin-left: 4%;
 
     }
     h2{
@@ -118,15 +118,15 @@ a{
     }
     .box1{
         display: grid;
-  grid-template-columns: repeat(4,  1fr) 100px;
-  grid-gap: 70px;
+  grid-template-columns: repeat(4,  1fr) 50px;
+  grid-gap: 50px;
         
         text-align: center;
     }
     .box2{
         display: grid;
-  grid-template-columns: repeat(4,  1fr) 100px;
-  grid-gap: 70px;
+  grid-template-columns: repeat(4,  1fr) 50px;
+  grid-gap: 50px;
         text-align: center;
     }
     
