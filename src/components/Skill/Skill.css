@@ -16,8 +16,9 @@ img{
     height: 150px;
 }
 .img-div{
-  padding-left: 1%; 
-  margin-left: 15%;
+ margin-left:15%;
+
+  
 }
 .box1{
     display: flex;
@@ -57,7 +58,7 @@ a{
     }
     .img-div{
         padding-right: 10%; 
-        margin-left: 10%;
+        margin : auto;
       }
     img{
         width: 100px;
@@ -104,7 +105,7 @@ a{
     }
 
     .img-div{
-      margin-left: 4%;
+      margin: auto;
 
     }
     h2{

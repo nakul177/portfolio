@@ -27,7 +27,7 @@ const About = () => {
           develop alongside the organization..
         </p>
         <div className="a-award">
-         <button className="button-resume"><a href="https://drive.google.com/file/d/1EzXzZu95LD5JXBH5avbqKBdKi7F-D3T5/view?usp=sharing"> Resume</a></button>
+         <button className="button-resume"><a href="https://drive.google.com/file/d/1lQQmN5GFEIcoy8EDpDa4EW99gazwDDmw/view?usp=sharing"> Resume</a></button>
          <button className="button-github"><a href="https://github.com/nakul177"> Github </a></button>
         </div>
       </div>
