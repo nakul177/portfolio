@@ -17,7 +17,7 @@ const About = () => {
           a Hotel Management Graduate from UEI Goble College, Pune.
         </p>
         <p className="a-desc">
-          A Passionate full-stack web Developer with 4+ months of hands-on
+          A Passionate full-stack web Developer with 6+ months of hands-on
           experience in developing scalable websites/applications using a wide
           range of front end and back-end skills like HTML, CSS, JavaScript,
           Mongodb, Express, Redux, NodeJs, React etc. Developed 4+ websites from

@@ -13,4 +13,11 @@ export const products = [
     name :"Specamaker-Clone",
     gitlink :"https://github.com/pooja171195/Specs-Makers-clone"
   },
+  {
+    id:3,
+    img:"https://d1gzz21cah5pzn.cloudfront.net/img/websites/s/swi/swiggy.com-desktop@2x.1629464717.jpg" ,
+    link:"https://swiggy-kappa.vercel.app/",
+    name:"Swiggy-Clone",
+    gitlink:"https://github.com/MadhanM282/Swiggy-Clone",
+  }
 ];
